@@ -20,6 +20,8 @@ public class SumValidations {
 			int copies = js.getInt("courses["+i+"].copies");
 			int amount = price * copies;
 			System.out.println(amount);
+			System.out.println(amount);
+			System.out.println(amount);
 			sum = sum + amount;
 		}
 		System.out.println(sum);
